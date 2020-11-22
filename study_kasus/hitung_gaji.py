@@ -31,7 +31,7 @@ class Gaji:
               f"golongan : {self.golongan} \n"
               f"Tunjangan keluarga : {self.hitungTunjanganKeluarga()} \n "
               f"Tunjangan jabatan : {self.hitungTunjanganJabatan()} \n"
-              f" terima gaji : {gaji}")
+              f"terima gaji : {gaji}")
 
 nama = input("input nama pegawai : ")
 gajiPokok = int(input("input gaji pokok : "))
